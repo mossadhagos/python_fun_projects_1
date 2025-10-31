@@ -21,8 +21,10 @@ class AlienInvasion:
             
             # make the most rescently drawn creen visibel 
             pygame.display.flip()
-
+            
+            
 if __name__ == '__main__':
     # make a game  instance, and run the game.
     ai = AlienInvasion
     ai.run_game()
+    
