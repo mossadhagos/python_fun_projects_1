@@ -1,7 +1,7 @@
 import pygame
 import sys
 
-class AlienInvasion:
+class Alien:
     ## overall class that manage game assets and behavior
     
     def __init__(self):
@@ -25,6 +25,7 @@ class AlienInvasion:
             
 if __name__ == '__main__':
     # make a game  instance, and run the game.
-    ai = AlienInvasion
+    ai = Alien
     ai.run_game()
+    
     
